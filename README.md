@@ -7,7 +7,7 @@
 **Session-level e-commerce conversion intelligence with Python, SQLite and Streamlit — where shoppers leave the
 funnel, how channels and devices compare, and what a better step would be worth.**
 
-<!-- LIVE-BADGE -->
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://funnelforge-ai-zubairlabs.streamlit.app)
 [![CI](https://github.com/muhammadzubair-data/funnelforge-ai-conversion-journey-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/muhammadzubair-data/funnelforge-ai-conversion-journey-intelligence/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-101B32?logo=python&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQL-SQLite-14B8A6?logo=sqlite&logoColor=white)
@@ -31,7 +31,17 @@ Built by [ZubairLabs](https://zubairlabs.com) · Muhammad Zubair
 
 ## Live demo
 
-<!-- LIVE-SECTION -->
+**▶ [https://funnelforge-ai-zubairlabs.streamlit.app](https://funnelforge-ai-zubairlabs.streamlit.app)**
+
+Hosted on Streamlit Community Cloud (Python 3.11). The public app was checked in a browser after release:
+- all six pages load with their charts;
+- removing Mobile from the device filter gives 1,623 sessions on every page, matching the local run;
+- the scenario sliders update purchases and revenue;
+- the messy sample export uploads with the exact validation report above and is used on every page;
+- the export buttons are enabled (their file contents are checked by the Playwright suite);
+- **Remove upload** returns to the demo, and the dark theme renders.
+
+The free tier sleeps when idle, so the first visit can take a minute.
 
 ## What it does
 
