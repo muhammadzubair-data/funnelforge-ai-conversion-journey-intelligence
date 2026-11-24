@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" font-family="Arial, sans-serif">
+<rect width="1200" height="300" rx="22" fill="#101B32"/>
+<text x="40" y="44" font-size="20" font-weight="800" fill="#F8FAFC">FunnelForge AI · from raw events to descriptive funnel intelligence</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#94A3B8"/></marker></defs>
+<g font-size="13" fill="#E2E8F0">
+<rect x="40" y="74" width="200" height="180" rx="14" fill="#18284A" stroke="#54E5D0"/>
+<text x="58" y="102" font-weight="800" fill="#54E5D0">1 · Events</text><text x="58" y="130">Synthetic generator (v1)</text><text x="58" y="150">or CSV upload</text><text x="58" y="180">prepare(): aliases, stage</text><text x="58" y="200">names, UTC, duplicates,</text><text x="58" y="220">sequence checks, report</text>
+<rect x="276" y="74" width="200" height="180" rx="14" fill="#18284A" stroke="#14B8A6"/>
+<text x="294" y="102" font-weight="800" fill="#2DD4BF">2 · Funnel</text><text x="294" y="130">distinct sessions per stage</text><text x="294" y="150">step + overall conversion</text><text x="294" y="170">Wilson 95% intervals</text><text x="294" y="190">largest drop-off</text>
+<rect x="512" y="74" width="200" height="180" rx="14" fill="#18284A" stroke="#F97316"/>
+<text x="530" y="102" font-weight="800" fill="#FB923C">3 · SQLite segments</text><text x="530" y="130">GROUP BY channel/device</text><text x="530" y="150">stage reach, revenue</text><text x="530" y="170">chi-square, intervals</text><text x="530" y="200" fill="#FBBF24">associations, not causes</text>
+<rect x="748" y="74" width="190" height="180" rx="14" fill="#18284A" stroke="#8B5CF6"/>
+<text x="766" y="102" font-weight="800" fill="#A78BFA">4 · Daily trends</text><text x="766" y="130">session-start date (UTC)</text><text x="766" y="150">every calendar day</text><text x="766" y="170">7-day rolling rates</text><text x="766" y="190">weekday pattern</text>
+<rect x="974" y="74" width="186" height="180" rx="14" fill="#18284A" stroke="#54E5D0"/>
+<text x="992" y="102" font-weight="800" fill="#54E5D0">5 · Scenarios</text><text x="992" y="130">+points on any steps</text><text x="992" y="150">sensitivity ranking</text><text x="992" y="170">80% sampling band</text><text x="992" y="200">CSV exports</text>
+</g>
+<g stroke="#94A3B8" stroke-width="2" marker-end="url(#a)"><line x1="242" y1="164" x2="272" y2="164"/><line x1="478" y1="164" x2="508" y2="164"/><line x1="714" y1="164" x2="744" y2="164"/><line x1="940" y1="164" x2="970" y2="164"/></g>
+<text x="40" y="284" font-size="12.5" fill="#94A3B8">Synthetic demo by default · uploads stay in the browser session · descriptive and hypothetical, not causal</text>
+</svg>
